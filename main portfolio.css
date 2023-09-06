@@ -1,0 +1,48 @@
+body {
+    background-color: seashell;
+    text-emphasis-color: white;
+}
+
+ul.okayokay {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    list-style: none;
+    align-items: end;
+
+}
+ul.okayokay li {
+    padding: 12px;
+
+}
+
+.overskift{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-left: 350px;
+    margin-right: 350px;
+    letter-spacing: 2px;
+    padding: 50px;
+    line-height: 28px;
+    justify-content: space-between;
+}
+
+.tekst {
+    font-size: 15px;
+}
+.overskift {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
